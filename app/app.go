@@ -4,12 +4,12 @@ Package app is the main runtime package for Efs2. This package holds all of the 
 package app
 
 import (
+	"efs2/config"
+	"efs2/parser"
+	"efs2/ssh"
 	"fmt"
 	"github.com/fatih/color"
 	"github.com/howeyc/gopass"
-	"github.com/madflojo/efs2/config"
-	"github.com/madflojo/efs2/parser"
-	"github.com/madflojo/efs2/ssh"
 	"regexp"
 	"sync"
 )

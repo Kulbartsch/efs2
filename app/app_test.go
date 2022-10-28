@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/madflojo/efs2/config"
+	"efs2/config"
 	"io/ioutil"
 	"os"
 	"reflect"

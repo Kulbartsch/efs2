@@ -11,8 +11,8 @@ package parser
 
 import (
 	"bufio"
+	"efs2/ssh"
 	"fmt"
-	"github.com/madflojo/efs2/ssh"
 	"os"
 	"regexp"
 	"strconv"

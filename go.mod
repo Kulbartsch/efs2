@@ -1,4 +1,4 @@
-module github.com/madflojo/efs2
+module efs2
 
 go 1.14
 

@@ -25,11 +25,11 @@ Efs2 is an idea to combine the stupid shell scripts philosophy of fss with the s
 package main
 
 import (
+	"efs2/app"
+	"efs2/config"
 	"github.com/fatih/color"
 	"github.com/howeyc/gopass"
 	"github.com/jessevdk/go-flags"
-	"github.com/madflojo/efs2/app"
-	"github.com/madflojo/efs2/config"
 	"os"
 )
 
